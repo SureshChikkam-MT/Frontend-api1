@@ -1,0 +1,17 @@
+    {
+        "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./build",
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es6", "dom", "dom.iterable"
+        ],
+        "downlevelIteration": true
+        }
+    }
